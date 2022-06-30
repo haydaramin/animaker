@@ -1,0 +1,10 @@
+reference video:
+https://www.youtube.com/watch?v=WQeoO7MI0Bs
+
+1. how to read images.
+
+imread() 
+used to read image
+takes path
+
+11:59

@@ -1,6 +1,10 @@
 import cv2 as cv
 import sys
 
+# goal today,
+# run border detection on oxs1215.jpg
+# write basic shell
+
 # REQUIRES: how to open and close an image
 # EFFECTS: opens the image, and closes it
 def open_close_image(img_path_in):
