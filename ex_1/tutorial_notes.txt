@@ -1,10 +1,22 @@
 reference video:
 https://www.youtube.com/watch?v=WQeoO7MI0Bs
 
+left off at 22:41
+
 1. how to read images.
 
 imread() 
 used to read image
 takes path
 
-11:59
+canny edge detection:
+-> multi stage algorithm
+
+https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html
+1. noise reduction,
+	run a 5x5 gaussian blur filter
+2. 
+
+takes a grayscale + blur, + sobel operator,
+
+

@@ -39,10 +39,13 @@ def ex_4():
     # convert image to different color space
     # in this case grayscale
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    # we can run filters on it.
+    imgBlur = cv2.GaussianBlur(imgGray,(7,3),0)
 
+    #edge detector
+    imgCanny = cv2.Canny(img,100,100)
 
-    imgBlur = cv2.GausianBlur(imgGray)
-    cv2.imshow("gray image", imgGray)
+    cv2.imshow("canny image", imgCanny)
     cv2.waitKey(0)
 
 
